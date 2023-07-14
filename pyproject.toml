@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-imposter"
+version = "0.1.0"
+description = ""
+authors = ["Joaqim Planstedt <git@joaqim.xyz>"]
+readme = "README.md"
+packages = [{include = "python_imposter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+customtkinter = "^5.1.2"
+pandas = "^2.0.1"
+openai = "^0.27.5"
+md-to-html = "^0.7.3"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.33.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
