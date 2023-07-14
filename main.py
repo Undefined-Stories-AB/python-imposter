@@ -26,7 +26,7 @@ if openai.api_key is None:
 
 USE_LISTBOX = True
 
-cuomtkinter.set_appearance_mode("Dark")
+customtkinter.set_appearance_mode("Dark")
 customtkinter.set_default_color_theme("blue")
 
 
